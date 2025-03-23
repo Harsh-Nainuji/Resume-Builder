@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build Your Resume</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Resume Builder</h1>
+  </header>
+  <section id="template-selection">
+    <!-- Templates can be dynamically loaded here -->
+    <h2>Select a Template</h2>
+    <div id="templates-list"></div>
+  </section>
+  <section id="builder-form">
+    <h2>Enter Your Details</h2>
+    <form id="resumeForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="text" name="contact" placeholder="Contact Information" required>
+      <!-- Additional fields for education, experience, skills, etc. -->
+      <button type="submit">Preview & Download</button>
+    </form>
+  </section>
+  <section id="preview">
+    <h2>Resume Preview</h2>
+    <div id="resume-preview"></div>
+    <button id="download-pdf">Download PDF</button>
+    <button id="download-docx">Download DOCX</button>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>

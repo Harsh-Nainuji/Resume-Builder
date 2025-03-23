@@ -1,0 +1,20 @@
+{
+  "name": "resume-builder-project",
+  "version": "1.0.0",
+  "description": "this is my resume builder",
+  
+  "scripts": {
+   "start": "nodemon --exec \"node\" server.js",
+  "test": "done"
+  },
+  "author": "harsh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

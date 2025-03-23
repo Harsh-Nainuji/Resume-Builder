@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Panel - Manage Templates</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <h1>Admin Panel</h1>
+  <!-- Optional: Basic password prompt -->
+  <div id="admin-form">
+    <form id="templateForm">
+      <input type="text" name="name" placeholder="Template Name" required>
+      <textarea name="htmlContent" placeholder="HTML Content" required></textarea>
+      <textarea name="cssContent" placeholder="CSS Content" required></textarea>
+      <input type="text" name="previewImage" placeholder="Preview Image Path (e.g., /images/template.png)">
+      <button type="submit">Upload Template</button>
+    </form>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
